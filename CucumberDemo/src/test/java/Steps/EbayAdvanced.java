@@ -21,7 +21,7 @@ public class EbayAdvanced {
 	@Given("I am on Ebay Advanced Page")
 	public void i_am_on_ebay_advanced_page() {
 		System.out.println("I am on Ebay Advanced Page");
-
+		System.out.println();
 		driver.navigate().to("https://www.ebay.com/sch/ebayadvsearch");
 	}
 
